@@ -6,8 +6,13 @@
   <meta name="description" content="Build your own Oreo">
   <meta name="author" content="Juhász Bálint">
   <style rel="stylesheet">
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
     body {
       margin: 1rem 0;
+      animation: fadein 1s ease-in;
     }
     main {
       position: absolute;
